@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Server Manipulator</title>
+</head>
+<body>
+<h2> Enter  "chrome" for chrome-browser and for "mozilla" for mozilla </h2>
+
+    <form  action="/start" method="POST">
+               <li>Browser<br><input type="text" name="browser" ></li>
+               <li>Url<br><input type="url" name="url"></li>
+        <br>
+        <li><input type="submit" name="start"  value="Start"></li>
+    </form>
+
+
+     <br> <br> <br> <br>
+
+
+    <form  action="/stop" method="POST">
+               <li>Browser<br><input type="text" name="browser" ></li>
+        <br>
+        <li><input type="submit" name="stop"  value="Stop"></li>
+    </form>
+
+
+     <br> <br> <br> <br>
+
+    <form  action="/cleanup" method="POST">
+               <li>Browser<br><input type="text" name="browser" ></li>
+        <br>
+        <li><input type="submit" name="cleanup"  value="Cleanup"></li>
+    </form>
+
+
+     <br> <br> <br> <br>
+
+    <form  action="/start" method="POST">
+               <li>Browser<br><input type="text" name="browser" ></li>
+        <br>
+        <li><input type="submit" name="getactiveurl"  value="getactiveurl"></li>
+    </form>
+
+
+     <br> <br> <br> <br>
+
+
+
+</body>
+</html>
