@@ -1,7 +1,8 @@
-# WebManipulator Problem Statment
+# Web manipulator
 
 
-You have to implement a simple web service that allows one to interact with two web-browsers,f viz., Google Chrome and Mozilla Firefox.
+
+<i><b>Problem Statment</b></i> : You have to implement a simple web service that allows one to interact with two web-browsers,f viz., Google Chrome and Mozilla Firefox.
 
 The interaction has four components:
 
